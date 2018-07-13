@@ -44,7 +44,7 @@ class Header extends Component {
 			        		</NavItem>
 			        		<NavItem>
 			        			<NavLink className="nav-link" to="/oppgave">
-			        				Oppagve
+			        				Oppgave
 			        			</NavLink>
 			        		</NavItem>
 			        	</Nav>
