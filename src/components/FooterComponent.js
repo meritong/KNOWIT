@@ -10,7 +10,8 @@ class Footer extends Component {
 		            <div className="row justify-content-center">   
 		            	<div className="col-md-3">
 		                    <h5>Om oppgaven</h5>
-		                    <p> Hjemmeoppgaven er gitt av KNOWIT angående intervju  </p>
+		                    <p> Hjemmeoppgaven er gitt av KNOWIT angående intervju</p>
+		                    <a href="https://github.com/meritong/KNOWIT">Besøk GitHub for kildekode</a>
 		                </div>          
 		                <div className="col-md-3">
 		                    <h5>Links</h5>
