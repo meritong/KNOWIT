@@ -1,28 +1,41 @@
-.App {
-  text-align: center;
+.navbar-brand img{
+	width: 150px;
+	height: 40px;
+}
+.jumbotron {
+    margin-bottom: 0;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.pagination {
+	justify-content: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.pagination li {
+    display: inline-block;
 }
-
-.App-title {
-  font-size: 1.5em;
+.pagination li.active {
+    background-color: #199c87;
+    color: #fff;
 }
-
-.App-intro {
-  font-size: large;
+.pagination li:hover {
+    background-color: #199c87;
+    color: #fff;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+.footer{
+	background-color: #199c87;
+	color: #fff;
+}
+.footer .col-md-3 {
+	padding-top: 20px;
+}
+.footer a {
+	color:#fff;
+	text-decoration: underline;
 }
